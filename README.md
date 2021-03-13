@@ -13,4 +13,21 @@ when submitting your project files.
 - If you do not have `yarn` installed, follow the instructions
   at `https://classic.yarnpkg.com/en/docs/install/#mac-stable `
 
-4. Run `npm start` to execute the scrapper script
+4. Run `yarn start` to execute the scrapper script. If done right, you should
+   see output as follows:
+
+```
+> yarn start
+yarn run v1.12.1
+$ node scraper.js
+🤪  Here goes nothing...
+Scraping: 7524.811ms
+✅  Successfully scraped %s https://www.baps.org/Global-Network/North-America/BAPS-North-America---All-Centers.aspx
+Writing center data to file for 103 center
+✅  Successfully wrote center data to file: %s centers.json
+Writing: 0.766ms
+✅  Closing browser...
+✨  Done in 8.20s.
+```
+
+5. Ensure that `centers.json` file is created and has the JSON data for all BAPS North American centers.

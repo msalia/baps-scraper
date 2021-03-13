@@ -7,6 +7,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "fs": "^0.0.1-security",
     "puppeteer": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node scraper.js"
   }
 }
