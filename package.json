@@ -1,0 +1,12 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrape BAPS North American Centers",
+  "main": "scraper.js",
+  "author": "msalia",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
